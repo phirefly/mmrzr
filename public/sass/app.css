@@ -1,0 +1,26 @@
+body {
+  font-family: Helvetica, Calibri, Arial, sans-serif;
+  font-size: 14px; }
+
+#wrap {
+  width: 480px;
+  margin: 40px auto; }
+
+h1 {
+  margin: 0 0 7px 0;
+  font-size: 35px; }
+
+input#entry {
+  font-size: 18px;
+  height: 25px;
+  margin-top: 14px;
+  width: 99%; }
+
+.example {
+  margin-top: 14px;
+  color: #999999; }
+
+.target_text {
+  background-color: #dfdfdf;
+  display: block;
+  min-height: 25px; }

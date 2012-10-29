@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <style>
+    .active {
+      color: red;
+    }
+
+    li {
+      display: inline;
+      padding: 10px;
+    }
+
+    #tabs-content div {
+      display: none;
+    }
+  </style>
+
+  <script src="js/frameworks/jquery-1.5.2.js"></script>
+  <script src="js/test_jquery_plugin.js"></script>
+
+</head>
+<body>
+  <ul id="tabs">
+    <li><a href="#" data-tab="1">testing1</a></li>
+    <li><a href="#" data-tab="2">testing2</a></li>
+    <li><a href="#" data-tab="3">testing3</a></li>
+  </ul>
+
+  <ul id="tabs-content">
+    <div data-tab='content1'>
+      <li>testing1 content</li>
+    </div>
+    <div data-tab='content2'>
+      <li>testing2 content</li>
+    </div>
+    <div data-tab='content3'>
+      <li>testing3 content</li>
+    </div>
+  </ul>
+
+
+<script>
+$("ul#tabs").tabs("#tabs-content");
+</script>
+</body>
+</html>
