@@ -1,0 +1,14 @@
+{
+  "name": "mmrzr",
+  "author": "Raphy Villas",
+  "description": "mmrzr application",
+  "version": "0.0.0",
+  "dependencies": {
+    "connect": "1.8.x",
+    "mocha": "1.7.4",
+    "expect.js": "0.2.0",
+    "should": "1.2.1"
+  },
+  "engine": "0.6.x",
+  "main": "app.js"
+}
