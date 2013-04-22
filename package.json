@@ -2,8 +2,14 @@
   "name": "mmrzr",
   "author": "Raphy Villas",
   "description": "mmrzr application",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
+    "express": "3.2.0",
+    "jade": "*",
     "connect": "1.8.x",
     "mocha": "1.7.4",
     "expect.js": "0.2.0",
